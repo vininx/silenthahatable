@@ -1,0 +1,20 @@
+script_key="ilovesilenthaha";
+getgenv().Silent = {
+   ['Aimbot'] = {
+       ['Prediction'] = {
+           ['Amount'] = 0.1,
+           ['Auto Prediction'] = false
+       },
+       ['Target Part'] = "UpperTorso",
+       ['Jump Offset'] = -1.5,
+       ['Auto Air'] = true,
+   },
+   ['Camera'] = {
+       ['Smoothing'] = 0.50
+   },
+   ['Macro'] = {
+       ['Enabled'] = true
+   }
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/994984acd8281326a743eec4a039ba51.lua"))()
